@@ -12,10 +12,14 @@ const TriangleArea = () => {
   });
 
   const handleChangeWidth = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setProperties({ ...properties, width: +e.target.value });
+    const result: number | undefined =
+      e.target.value === "" ? undefined : +e.target.value;
+    setProperties({ ...properties, width: result });
   };
   const handleChangeHeight = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setProperties({ ...properties, height: +e.target.value });
+    const result: number | undefined =
+      e.target.value === "" ? undefined : +e.target.value;
+    setProperties({ ...properties, height: result });
   };
 
   return (
