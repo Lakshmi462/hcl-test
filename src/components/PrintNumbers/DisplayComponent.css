@@ -1,0 +1,8 @@
+.displayContainer{
+    padding:10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    border:1px solid #000000;
+}

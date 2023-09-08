@@ -1,0 +1,12 @@
+.numberInput{
+    margin:10px;
+    padding:5px;
+    width:120px;
+}
+.submitButton{
+    background-color: #0A6DC1;
+    border-color:#0A6DC1;
+    color:#FFFFFF;
+    padding: 5px 15px;
+    border-radius:5px;
+}
